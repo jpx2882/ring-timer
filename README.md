@@ -23,6 +23,19 @@
 2. Tap **Share → Add to Home Screen**.
 3. Launch it from the icon: it runs full screen and works offline.
 
+## Install on Android (APK)
+
+1. On your Android phone, download **RingTimer.apk** from the
+   [latest release](https://github.com/jpx2882/ring-timer/releases/latest/download/RingTimer.apk).
+2. Open the file. If Android asks, allow installing apps from your browser or file manager.
+3. Tap **Install**.
+
+The APK is built automatically by GitHub Actions from the `android/` folder.
+
+## Build the Android app yourself
+
+Open the `android/` folder in Android Studio and press ▶︎, or run `./gradlew assembleRelease` in `android/`.
+
 ## Build the iPhone app (Xcode)
 
 Requires a Mac with Xcode 16 or newer.
@@ -40,6 +53,7 @@ With a free Apple account, the app must be reinstalled from Xcode every 7 days.
 ```
 docs/          Web app (installable PWA, works offline), served by GitHub Pages
 ios/           Native SwiftUI app (Xcode project, iOS 17+)
+android/       Native Kotlin + Jetpack Compose app (Android 8+)
 screenshots/   Images used in this README
 ```
 

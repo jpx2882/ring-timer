@@ -9,3 +9,11 @@ build/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+# Android / Gradle
+.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+!android/gradle/wrapper/gradle-wrapper.jar
