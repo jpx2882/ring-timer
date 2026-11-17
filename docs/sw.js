@@ -1,5 +1,5 @@
 // Offline cache. Bump the version when files change so phones get the update.
-const CACHE = "ring-timer-v1";
+const CACHE = "ring-timer-v2";
 const FILES = [
   "./", "index.html", "manifest.webmanifest",
   "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png",
