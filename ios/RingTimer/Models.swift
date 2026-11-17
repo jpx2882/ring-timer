@@ -30,10 +30,10 @@ enum Mode: String, CaseIterable, Identifiable {
 
     var color: Color {
         switch self {
-        case .warmup: return Color(hex: 0xFF8C1A)   // jaune orangé
-        case .training: return Color(hex: 0xE8202F) // rouge
-        case .rest: return Color(hex: 0xFFD21F)     // jaune
-        case .stretch: return Color(hex: 0x2F8BFF)  // bleu
+        case .warmup: return Color(hex: 0xFF8C1A)   // orange-yellow
+        case .training: return Color(hex: 0xE8202F) // red
+        case .rest: return Color(hex: 0xFFD21F)     // yellow
+        case .stretch: return Color(hex: 0x2F8BFF)  // blue
         }
     }
 

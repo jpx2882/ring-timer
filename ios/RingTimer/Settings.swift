@@ -26,8 +26,7 @@ final class Settings: ObservableObject {
         palette = Palette(rawValue: s.string(forKey: "palette") ?? "") ?? .feu
         sound = s.object(forKey: "sound") as? Bool ?? true
         pack = SoundPack(rawValue: s.string(forKey: "pack") ?? "") ?? .boxe
-        let deviceIsFrench = Locale.preferredLanguages.first?.lowercased().hasPrefix("fr") ?? false
-        lang = Lang(rawValue: s.string(forKey: "lang") ?? "") ?? (deviceIsFrench ? .fr : .en)
+        lang = Lang(rawValue: s.string(forKey: "lang") ?? "") ?? .en
         durations = s.dictionary(forKey: "durations") as? [String: Int] ?? [:]
         customs = s.dictionary(forKey: "customs") as? [String: Int] ?? [:]
         customOn = s.dictionary(forKey: "customOn") as? [String: Bool] ?? [:]

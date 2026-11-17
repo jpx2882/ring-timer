@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ring Timer</title>
-<meta name="description" content="Timer de boxe et d'entraînement : Warm up, Training, Rest, Stretching. Boxing & workout interval timer.">
+<meta name="description" content="Boxing & workout interval timer: Warm up, Training, Rest, Stretching.">
 <meta name="theme-color" content="#0b0a0f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -267,7 +267,7 @@ button:focus-visible{outline:3px solid #fff; outline-offset:2px}
   <div class="sheet wrap" role="dialog" aria-label="Menu">
     <h2 data-i18n="language">Langue</h2>
     <div class="lang" id="lang" role="group" aria-label="Langue / Language">
-      <button data-l="fr">Français</button><button data-l="en">English</button>
+      <button data-l="en">English</button><button data-l="fr">Français</button>
     </div>
     <h2 data-i18n="font">Police</h2>
     <div class="font-opts">
@@ -357,7 +357,7 @@ button:focus-visible{outline:3px solid #fff; outline-offset:2px}
 
   const $ = id => document.getElementById(id);
   const st = {mode:"training", rounds:3, font:"street", pal:"feu", sound:true, pack:"boxe",
-    lang: /^fr/i.test(navigator.language||"") ? "fr" : "en"};
+    lang: "en"};
   try { Object.assign(st, JSON.parse(localStorage.getItem("ringtimer")||"{}")); } catch(e){}
   try { const d = JSON.parse(localStorage.getItem("ringtimer-durs")||"{}"); for (const k in d) if (MODES[k]) MODES[k].dur = d[k]; } catch(e){}
   try { const d = JSON.parse(localStorage.getItem("ringtimer-modes")||"{}"); for (const k in d) if (MODES[k]) {

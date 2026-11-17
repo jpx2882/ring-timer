@@ -1,7 +1,7 @@
 import Foundation
 
 enum Lang: String, CaseIterable, Identifiable {
-    case fr, en
+    case en, fr
     var id: String { rawValue }
 }
 
