@@ -17,11 +17,21 @@
 - **English / French**
 - Everything is **saved** on your device. No ads, no account, no data collected.
 
-## Install on your phone (web app)
+## Install on iPhone (Safari)
 
-1. Open https://jpx2882.github.io/ring-timer in Safari (iPhone) or Chrome (Android).
-2. Tap **Share → Add to Home Screen**.
-3. Launch it from the icon: it runs full screen and works offline.
+1. Open **https://jpx2882.github.io/ring-timer** in **Safari**.
+2. Tap the **Share** button (the square with an arrow pointing up).
+3. Scroll down and tap **Add to Home Screen**, then **Add**.
+4. Open **Ring Timer** from your home screen: it runs full screen, without the Safari bar, and works offline.
+
+> To hear the sounds, turn off silent mode (the switch on the side of the iPhone).
+
+## Install the web app on Android (Chrome)
+
+1. Open **https://jpx2882.github.io/ring-timer** in **Chrome**.
+2. Tap the **⋮** menu, then **Add to Home screen** (or **Install app**).
+
+Prefer a real Android app? Use the APK below.
 
 ## Install on Android (APK)
 
