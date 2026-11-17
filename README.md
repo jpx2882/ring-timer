@@ -1,7 +1,7 @@
 # 🥊 Ring Timer
 
-**Timer de boxe et d'entraînement, gratuit et open source.**
-**Free and open-source boxing & workout timer.**
+**Timer de boxe et d'entraînement, gratuit et en code ouvert.**
+**Free, source-available boxing & workout timer. Not for sale.**
 
 ![Ring Timer](screenshots/preview.png)
 
@@ -76,9 +76,16 @@ docs/   Web app (installable, works offline) — served by GitHub Pages
 ios/    Native SwiftUI app (Xcode project)
 ```
 
-## License
+## Licence / License
 
-Code: [MIT](LICENSE). Fonts: SIL Open Font License 1.1.
+**FR** : le code est sous licence [PolyForm Noncommercial 1.0.0](LICENSE.md).
+Tu peux l'utiliser, l'installer sur ton iPhone, le modifier et le partager **gratuitement**.
+**Il est interdit de le vendre** ou de l'utiliser dans un but commercial.
+Si tu partages une version modifiée, utilise un autre nom et une autre icône.
 
-If you publish your own version, please use a different name and icon so people don't confuse it with this project.
-Si tu publies ta propre version, merci d'utiliser un autre nom et une autre icône.
+**EN**: the code is licensed under [PolyForm Noncommercial 1.0.0](LICENSE.md).
+You may use it, install it on your iPhone, modify it and share it **for free**.
+**Selling it or any commercial use is not allowed.**
+If you share a modified version, please use a different name and icon.
+
+Copyright (c) 2026 jpx2882. Fonts: SIL Open Font License 1.1.
